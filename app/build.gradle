@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "happy.mjstudio.fragmentfactorydagger"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+    //Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    //AndroidX
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
+
+    //AndroidX Fragment
+    implementation 'androidx.fragment:fragment-ktx:1.2.0-rc02'
+    implementation 'androidx.fragment:fragment-testing:1.2.0-rc02'
+
+    //Lifecycle
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc02"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc02"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-rc02"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-rc02"
+    kapt "androidx.lifecycle:lifecycle-compiler:2.2.0-rc02"
+
+    //Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:2.2.0-rc02"
+    implementation "androidx.navigation:navigation-ui-ktx:2.2.0-rc02"
+
+    //Dagger
+    implementation "com.google.dagger:dagger:2.24"
+    implementation 'com.google.dagger:dagger-android-support:2.24'
+    kapt "com.google.dagger:dagger-compiler:2.24"
+    kapt 'com.google.dagger:dagger-android-processor:2.24'
+}
+
+dependencies {
+    androidTestImplementation 'androidx.test:core:1.2.0'
+
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.ext:truth:1.2.0'
+    androidTestImplementation 'com.google.truth:truth:1.0'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
+
+    androidTestImplementation 'android.arch.core:core-testing:1.1.1'
+}
+
