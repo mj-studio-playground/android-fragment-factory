@@ -12,11 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a378802-c6d7-4a80-b157-355defa9149c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fragment_enter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fragment_exit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fragment_pop_enter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fragment_pop_exit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -27,13 +22,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MainFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MyFragmentFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MyFragmentFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/di/FragmentFactoryModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/di/FragmentFactoryModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MyFragmentFactory.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="13" lean-forward="true" selection-start-line="10" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#46#426#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +123,6 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/dep/MyDependency.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/dep/IDependency.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MainApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/di/scopes.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/di/ActivityModule.kt" />
@@ -142,6 +143,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/di/FragmentFactoryModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/happy/mjstudio/fragmentfactorydagger/MyFragmentFactory.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt" />
       </list>
     </option>
   </component>
@@ -259,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android Instrumented Tests.MainActivityTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -480,9 +482,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.MainActivityTest" />
         <item itemvalue="Android Instrumented Tests.MainFragmentTest" />
         <item itemvalue="Android JUnit.MainFragmentTest.gogo" />
-        <item itemvalue="Android Instrumented Tests.MainActivityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -501,9 +503,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainFragmentTest_gogo - 2019.12.05 at 03h 20m 37s.xml">
-      <configuration name="MainFragmentTest.gogo" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="MainFragmentTest - 2019.12.05 at 03h 20m 45s.xml">
       <configuration name="MainFragmentTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
@@ -531,13 +530,16 @@
     <history-entry file="MainFragmentTest - 2019.12.06 at 15h 48m 44s.xml">
       <configuration name="MainFragmentTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="MainActivityTest - 2019.12.06 at 16h 43m 13s.xml">
+      <configuration name="MainActivityTest" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25335777" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25335777" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -545,7 +547,7 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.42905405" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
@@ -730,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#46#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/happy/mjstudio/fragmentfactorydagger/di/test/DaggerTestAppComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -849,6 +841,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" lean-forward="true" selection-start-line="10" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/happy/mjstudio/fragmentfactorydagger/MainActivityTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#46#426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
