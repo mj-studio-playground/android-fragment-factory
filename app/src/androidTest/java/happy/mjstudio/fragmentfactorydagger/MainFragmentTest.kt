@@ -17,7 +17,7 @@ class MainFragmentTest {
 
     @Before
     fun setup() {
-        val appComponent = DaggerTestComponent.builder().app(ApplicationProvider.getApplicationContext()).build()
+        val appComponent = DaggerTestComponent.factory().create(ApplicationProvider.getApplicationContext())
         this.fragmentFactory = appComponent.fragmentFactory()
     }
 

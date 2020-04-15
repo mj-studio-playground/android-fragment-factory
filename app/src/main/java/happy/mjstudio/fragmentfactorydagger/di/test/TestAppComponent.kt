@@ -20,11 +20,9 @@ import happy.mjstudio.fragmentfactorydagger.di.FragmentFactoryModule
 @AppScope
 interface TestComponent {
 
-    @Component.Builder
-    interface TestBuilder {
-        @BindsInstance
-        fun app(app: Application): TestBuilder
-        fun build(): TestComponent
+    @Component.Factory
+    interface TestFactory {
+        fun create(@BindsInstance app: Application): TestComponent
     }
 
     fun fragmentFactory() : FragmentFactory
