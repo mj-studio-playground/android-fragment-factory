@@ -11,7 +11,7 @@ import timber.log.Timber
 class MainApplication : DaggerApplication() {
 
     override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
-        return DaggerAppComponent.builder().app(this).build()
+        return DaggerAppComponent.factory().create(this)
     }
 
     override fun onCreate() {
